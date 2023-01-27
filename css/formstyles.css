@@ -1,0 +1,71 @@
+form {
+    margin: 10% 30%;    
+}
+
+body{
+    background:url('/images/pexels-chevanon-photography-1108099.jpg') no-repeat center fixed;
+    background-size: cover;   
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:1000px) {
+    form {
+        margin: 20% 30%;    
+    }
+    
+    h1{
+        font-size: 2rem;
+    }    
+}
+
+@media (max-width:600px) {
+    form {
+        margin: 30% 30%;    
+    }
+    
+    h1{
+        font-size: 1.5rem;
+    }
+}
+
+.form{
+    /* background-color: #ff4c68; */
+    margin: auto; 
+    width: 80%;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }  
+
+  input[type=submit] {
+    width: 100%;
+    background-color: #ff4c68;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color:#ff4c68;
+    transition: 0.2s all;
+    transform: scale(1.05);
+    
+  }
+  
