@@ -3,7 +3,7 @@ form {
 }
 
 body{
-    background:url('images/pexels-chevanon-photography-1108099.jpg') no-repeat center fixed;
+    background:url('/images/pexels-chevanon-photography-1108099.jpg') no-repeat center fixed;
     background-size: cover;   
 }
 
